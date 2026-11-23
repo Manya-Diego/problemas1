@@ -23,20 +23,32 @@
         <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Center" FontSize="20" Padding="5">Calculador de Promedio</TextBlock>
 
         <Border Grid.Row="1" Margin="20" Background="White" CornerRadius="12" Padding="10,0">
-            <TextBox x:Name="txtNota1" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
-        </Border>
+            <StackPanel>
+                <Label Content="Nota 1"></Label>
+                <TextBox x:Name="txtNota1" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
+            </StackPanel>
+            </Border>
 
         <Border Grid.Row="1" Grid.Column="1" Margin="20" Background="White" CornerRadius="12" Padding="10,0">
-            <TextBox x:Name="txtNota2" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
+            <StackPanel>
+                <Label Content="Nota 2"></Label>
+                <TextBox x:Name="txtNota2" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
+            </StackPanel>
         </Border>
 
         <Border Grid.Row="2" Margin="20" Background="White" CornerRadius="12" Padding="10,0">
-            <TextBox x:Name="txtNota3" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
+            <StackPanel>
+                <Label Content="Nota 3"></Label>
+                <TextBox x:Name="txtNota3" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
+            </StackPanel>
         </Border>
 
         <Border Grid.Row="2" Grid.Column="1" Margin="20" Background="White" CornerRadius="12" Padding="10,0">
-            <TextBox x:Name="txtNota4" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
-        </Border>
+            <StackPanel>
+                <Label Content="Nota 4"></Label>
+                <TextBox x:Name="txtNota4" Background="Transparent" BorderThickness="0" FontSize="16" VerticalContentAlignment="Center"/>
+            </StackPanel>
+           </Border>
 
         <Button x:Name="btnCalcular" Grid.Row="3" Grid.ColumnSpan="2" Content="Calcular" Click="btnCalcular_Click" HorizontalAlignment="Center" Padding="20,6"/>
 
